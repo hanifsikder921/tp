@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+*::selection {
+    background-color:rgb(26, 138, 78);
+    color: white;
+    text-shadow: 0 0 10px #fd2600;
+}
+
+
+.box{
+    width: 25px;
+    height: 25px;
+    background-color: #202230;
+    border-radius: 2px;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #252836;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main .container{
+    width: 80%;
+    height: 350px;
+    background-color: #010313;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+.main .container header{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.main .container header .right-side{
+    display: flex;
+    align-items: center;
+}
+
+.main .container header .right-side div{
+    margin-left: 10px;
+}
+
+.main .container header .right-side div:nth-child(2){
+    margin-right: 10px;
+    
+}
+
+.main .container header .right-side div:nth-child(1){
+background-color: #008268;
+}
+.main .container header .right-side div:nth-child(3){
+background-color: #FE9743;
+}
+
+.main .container header .left-side{
+    display: flex;
+    align-items: center;
+}
+
+.main .container header .left-side h2{
+    font-weight: normal;
+}
+
+/* Header Section End ===================================> */
+.days{
+   
+}
+.days>div{
+   margin-bottom: 25px;
+}
+
+.num{
+    background: none;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    font-weight: 200;
+    color: #303247;;
+}
+
+
+
+.common{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.first_section .box:nth-child(-n+4){
+
+    background-color: #008268;
+}
+
+
+/* ================================================================= */
+
+

@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+body {
+    background-color: #010313;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.container .nav{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto 10px;
+  
+    
+    
+}
+
+.container .nav .name{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.container .nav ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu .list{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.menu .list ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.menu .list ul li{
+    list-style: none;
+    margin: 0;
+    padding: 5px 10px;
+}
+.menu .list ul li:nth-child(6){
+   padding: 0px 20px;
+}
+.menu .list ul li:nth-child(8){
+    background-image: linear-gradient(to right, #D43FF5 , #5356FE);
+    border-radius: 6px;
+    
+}
+
+.menu .list ul li .gem{
+    
+    background-color: #EAF9D5;
+    border-radius: 50px;
+    padding: 0px 10px;
+    
+}
+
+.gem ul li a{
+    color: #010313;
+   
+}
+.list ul li .gem ul li {
+
+    padding: 5px 4px 5px;
+   
+}
+.gem ul li i{
+    color: blueviolet;
+}
+
+.list ul li:last-child img{
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 40px;
+}
+.list ul li:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.item{
+    transition: 0.1s;
+}
+
+.item:hover{
+    border: 1px solid #6353FD;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #D43FF5;
+}
+
+
+
+
+/* new section Design Is Start =====================================> */
+
+.con2{
+    display: flex;
+    width: 70%;
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    background-color: #5356FE;
+    border-radius: 10px;
+    border: 0.5px solid #0A7F88;
+    background-image: linear-gradient( 100deg , #010313, #0A7F88 );
+    padding: 30px;
+}
+
+.con2 .content h1{
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.con2 .content p{
+    color: #B4BBC0;
+    font-size: medium;
+    margin-bottom: 15px;
+}
+.con2 .content button{
+    border: none;
+    background-image: linear-gradient(to right,#4DC969,#159575);
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 16px;
+}
